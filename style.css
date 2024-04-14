@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.first {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  margin-top: 20px;
+  color: white;
+}
+.firsts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  padding-left: 10px;
+}
+.firstss {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  margin-top: 20px;
+  color: white;
+  /* padding-left: 18px; */
+}
+
+.firstss select {
+  width: 400px;
+  height: 40px;
+  cursor: pointer;
+  /* margin-left: 10px; */
+  /* margin-top: 20px; */
+}
+
+.firsts button {
+  width: 200px;
+  height: 40px;
+  /* margin-top: 20px; */
+  padding: 0;
+  text-align: center;
+}
+.tax {
+  /* border: 2px solid gray; */
+  border-radius: 15px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(45deg, #3c848a, #01253a);
+  box-shadow: 3px 3px 10px black;
+}
+input {
+  width: 400px;
+  height: 40px;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  gap: 2px;
+  font-weight: 500;
+}
+
+.hint {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 11px;
+  padding: 0 6px;
+  cursor: pointer;
+}
+
+.inp {
+  display: flex;
+}
+
+.error-icon {
+  color: red;
+  margin-left: -20px;
+  margin-top: 5px;
+  visibility: hidden;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.pop {
+  text-align: center;
+}
